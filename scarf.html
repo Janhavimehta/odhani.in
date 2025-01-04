@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover elegant traditional Indian shawls at Odhani Store. Shop now for the latest collections.">
+    <meta name="keywords" content="Indian Shawls, Traditional Clothing, Ethnic Wear">
+    <meta name="author" content="Odhani.in">
+    <title>Odhani Store - Shawl</title>
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('bg1.png') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        header {
+            background: linear-gradient(90deg, #1ebacc, #3b5998);
+            color: white;
+            padding: 10px 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            height: 60px;
+            margin-right: 10px;
+            border-radius: 50%;
+        }
+
+        .logo h1 {
+            font-size: 1.5rem;
+            margin: 0;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        nav a:hover {
+            background: #ffcc00;
+            color: #4e73df;
+        }
+
+        .new-arrivals {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: auto;
+            text-align: center;
+        }
+
+        .new-arrivals h2 {
+            font-size: 2rem;
+            margin-bottom: 30px;
+            color: black;
+            background-color: rgba(255, 255, 255, 0.8); /* Transparent white */
+            padding: 20px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+
+        .new-arrival-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .new-arrival {
+            width: 23%;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8); /* Transparent white */
+            border-radius: 10px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .new-arrival:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .new-arrival img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .new-arrival h3 {
+            font-size: 1.5rem;
+            margin: 0;
+        }
+
+        .new-arrival .price {
+            font-size: 1.2rem;
+            color: #4e73df;
+            margin-top: 10px;
+        }
+
+        .buy-now {
+            background-color: #4e73df;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        .buy-now:hover {
+            background-color: #3b5998;
+        }
+
+        footer {
+            background: linear-gradient(90deg, #1ebacc, #3b5998);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            transition: color 0.3s;
+        }
+
+        footer a:hover {
+            color: #ffcc00;
+        }
+
+        .social-icons {
+            margin-top: 10px;
+        }
+
+        .social-icons a {
+            color: white;
+            font-size: 1.5rem;
+            margin: 0 10px;
+            transition: color 0.3s;
+        }
+
+        .social-icons a:hover {
+            color: #ffcc00;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo1.png" alt="Odhani Store Logo">
+            <h1>Odhani.in</h1>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="login.php">Login</a>
+            <a href="contact.php">Contact Us</a>
+            <a href="about.html">About Us</a>
+        </nav>
+    </header>
+
+    <div class="new-arrivals">
+        <h2>Scarf</h2>
+        <div class="new-arrival-container">
+            <div class="new-arrival">
+                <img src="sc1.png" alt="Shawl Product 1">
+                <h3>Shawl 1</h3>
+                <div class="price">₹1,500</div>
+                <a href="form.php" class="buy-now">Buy Now</a>
+            </div>
+            <div class="new-arrival">
+                <img src="sc2.png" alt="Shawl Product 2">
+                <h3>Shawl 2</h3>
+                <div class="price">₹2,000</div>
+                <a href="form.php" class="buy-now">Buy Now</a>
+            </div>
+            <div class="new-arrival">
+                <img src="sc3.png" alt="Shawl Product 3">
+                <h3>Shawl 3</h3>
+                <div class="price">₹2,500</div>
+                <a href="form.php" class="buy-now">Buy Now</a>
+            </div>
+            <div class="new-arrival">
+                <img src="sc.png" alt="Shawl Product 4">
+                <h3>Shawl 4</h3>
+                <div class="price">₹3,000</div>
+                <a href="form.php" class="buy-now">Buy Now</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Odhani Store. All Rights Reserved.</p>
+        <p>Address: Chhatrapati Sambhajinagar | <a href="mailto:info@odhanistore.com">info@odhanistore.com</a></p>
+        <div class="social-icons">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        </div>
+    </footer>
+</body>
+
+</html>
